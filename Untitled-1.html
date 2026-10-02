@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>anonwanna.gallary.dpd</title>
+        <style>
+            .gallery {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content:center;
+                gap: 10px;
+            }
+            .gallery img {
+                width: 200px;
+                height: auto;
+                border-radius: 10px;
+                cursor: pointer;
+                transition: transform 0.3s ease;
+            }
+            .gallery img:hover {
+                transform: scale(1.1);
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Welcome to My Photo Gallery</h1>
+        <div class="gallery">
+            <img src="images/1000091263.png" alt="photo1">
+            <img src="images/1000077991.png" alt="photo2">
+            <img src="images/1000084047.png" alt="photo3">
+        </div>
+    </body>
+</html>
