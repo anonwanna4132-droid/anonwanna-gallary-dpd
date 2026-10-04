@@ -19,23 +19,81 @@
             .gallery img:hover {
                 transform: scale(1.7);
             }
+            .text {
+                text-indent: 80px;
+                text-align:justify;
+            }
+            .summary {
+                cursor: pointer;
+                color: blue;
+                text-decoration: none;
+            }
         </style>
     </head>
     <body>
-        <h1>Welcome to My Photo Gallery</h1>
+        <h1>Welcome to My Photo Gallery Website</h1>
+        <h2 style="color: rgb(13, 39, 239);">"ကျွန်တော့ရဲ့  ဖိုတိုဂလာရီ ဝက်ဆိုဒ်မှ  ကြိုဆိုပါတယ်ခင်ဗျာ"</h2>
+        <h3><u>Description</u></h3>
         <div>
-            <p>This website is a personal web development practice project.</p>
-            <p>I created it to improve my skills in <strong>HTML</strong>, <strong>CSS</strong>, and <strong>JavaScript</strong>.</p>
-            <p>My goal is to learn how websites are structured, designed, and made interactive.</p>
-            <p>I will continue adding new features and improving the website as I learn more about web development.</p>
+            <p class="text">This website is a personal web development practice project. 
+                I created it to improve my skills in <strong>HTML</strong>, <strong>CSS</strong>, and <strong>JavaScript</strong>. 
+                My goal is to learn how websites are structured, designed, and made interactive.
+                I will continue adding new features and improving the website as I learn more about web development.
+
+                <details class="summary">
+                    <summary style="color: blue; text-decoration: underline;">Click here to read in Burmese</summary>
+                    <p class="text">ကျွန်တော့ရဲ့ <strong>HTML</strong>, <strong>CSS</strong> နှင့် <strong>JavaScript skill</strong> 
+                        တွေကို လေ့ကျင့်စေနိုင်ရန် ဖန်တီးခဲ့တာဖြစ်ပါတယ်။ <strong>Website</strong> တစ်ခုရဲ့ တည်ဆောက်ပုံ၊ ဒီဇိုင်းပုံစံနဲ့
+                        အပြန်အလှန်ဆက်သွယ်နိုင်မှုတွေကို လေ့လာရန် ရည်ရွယ်ထားခြင်းလည်း ဖြစ်ပါတယ်။ ၎င်းနှင့်စပ်လျဉ်း၍ လေ့လာသင်ယူမှုများကို
+                        ဆက်လက်လုပ်ဆောင်ပြီး <strong>Feature</strong> အသစ်များထည့်သွင်းကာ တိုးမြှင့်ဆောင်ရွက်သွားမှာ ဖြစ်ပါတယ်။</p>
+                </details>
+            </p>           
+            <br>
+            <p class="text">On the day of <strong>September 4th, 2026</strong>, I modified my website by adding new features 
+                and presented it to Burmese.
+                The above paragraph has been styled to have an 
+                <span style="color: green;">indent</span> and <span style="color: green;">justified alignment</span> .
+                The website update section at the
+                end of the page had been styled with padding and a border for emphasis.
+                And the Statement of thanks has been 
+                <span style="color: green;">centered</span> and <span style="color: green;">italicized</span>.
+                I rebuilt the website entirely with HTML and CSS without using any JavaScript. 
+
+                <details class="summary">
+                    <summary style="color: blue; text-decoration: underline;">Click here to read in Burmese</summary>
+                    <p class="text">ယနေ့ 'စက်တင်ဘာ ၂၄'မှာ ကျွန့်တော်ရဲ့ <strong>Website</strong> ကို <strong>Feature</strong> 
+                        အသစ်များဖြည့်စွက်၍မြန်မာဘာသာဖြင့် ဖတ်ရှု့နိုင်ရန် ပြင်ဆင်ပြီး ဖြစ်ပါတယ်။ အသစ်သစ်‌သော မြှင့်တင်မှုများကို
+                        <strong>Page</strong>၏ နောက်ဆုံးတွင် အလေးပေးဖော်ပြထာပါသည်။ အထက်ဖော်ပြပါ စာပုဒ်အား ယခင်အချက်အလက်ပုံစံဖြင့်
+                        ဖော်ပြခဲ့ရာမှ ယခုအခါညီညာသော စာပေအရေးအသားပုံစံသို့ ပြောင်းလဲပြင်ဆင်ခဲ့ပါသည်။ ကျေးဇူးတင်ရှိကြောင်း <strong>Statement
+                        </strong>ကိုလည်း စာလုံးစောင်းများဖြင့် အလယ်ကျကျ မျက်စိပသာဒဖြစ်အောင် ပြင်ဆင်ထားရှိပါသည်။
+                        <strong>JavaScript</strong>ပါဝင်သေးခြင်းမရှိဘဲ <strong>HTML, CSS</strong> ဖြင့်သာပြန်လည်ပြုပြင်ထားခြင်းလည်း
+                        ဖြစ်ပါသည်။</p>
+                </details>
+            </p>
         </div>
+        
+        <br>
         <div class="gallery">
-            <img src="images/1000091263.png" alt="photo1">
+            <img src="images/1000031026.png" alt="photo4">
             <img src="images/1000077991.png" alt="photo2">
             <img src="images/1000084047.png" alt="photo3">
-            <img src="images/1000031026.png" alt="photo4">
+            
             <img src="images/1000083911.jpg" alt="photo5">
+            <img src="images/1000091263.png" alt="photo1">
         </div>
-        <div><em>THANK YOU FOR VISITING TO MY GALLERY</em></div>
+        <br>
+        <div style="border:1px solid #ccc; padding:15px; margin:20px 0; background:#f9f9f9;">
+             <p><strong>Update (September 4, 2026):</strong></p>
+             <p><em>English:</em> The website has been modified with new features and is now available in Burmese.</p>
+             <p><em>Burmese:</em> ဝဘ်ဆိုက်ကို အသစ်သောလုပ်ဆောင်ချက်များဖြင့် ပြင်ဆင်မြှင့်တင်ထား‌သောကြောင့် မြန်မာဘာသာဖြင့်ဖတ်ရှု့နိုင်ပါသည်။</p>
+        </div>
+        <br>
+        <div>
+            <center>
+                <em>THANK YOU FOR VISITING TO MY GALLERY</em>
+                <p>&DoubleLeftTee;လည်ပတ်ကြည့်ရှု့အားပေးမှုအတွက် အထူးကျေးဇူးတင်ရှိပါတယ်ခင်ဗျာ&DoubleRightTee;</p>
+            </center>
+        </div>
+        <br>  
     </body>
 </html>
